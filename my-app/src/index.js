@@ -2,12 +2,12 @@ import React from 'react';
 import './index.css';
 import { createRoot } from 'react-dom/client';
 import Router from './applications/Router';
-
+import {BrowserRouter} from 'react-router-dom';
 
 
 const container =document.getElementById('root');
 const root  = createRoot(container);
-root.render(<Router/>);
+root.render(<BrowserRouter><Router/></BrowserRouter>);
 
 
 
