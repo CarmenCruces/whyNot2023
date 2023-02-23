@@ -4,7 +4,7 @@ function Card() {
   return (
     <>
     
-<div class="max-w-sm bg-blue-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="max-w-sm bg-blue-900 border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
     <a>
         <img class="rounded-t-lg" src="" alt="" />
     </a>
