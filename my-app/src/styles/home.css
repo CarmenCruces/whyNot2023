@@ -1,3 +1,11 @@
-h1 {
-    color: red;
+.main{
+     margin-top: 3cm;
+    margin-bottom: 2cm;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-evenly; 
+    flex-wrap: wrap;
+
 }
