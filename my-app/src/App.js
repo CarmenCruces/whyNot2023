@@ -1,9 +1,9 @@
 import './App.css';
-import Home from './Component/Home';
-import Card from './Component/Card';
-import Abaut from './Component/Abaut';
-import Register from './Component/Register';
-import Login from './Component/Login';
+import Home from './views/Home';
+import Card from './component/Card';
+import About from './component/About';
+import Register from './views/Register';
+import Login from './views/Login';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Home />
       <Card />
-      <Abaut />
+      <About />
       <Register />
       <Login />
     </div>
