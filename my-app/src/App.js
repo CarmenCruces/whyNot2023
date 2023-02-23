@@ -1,20 +1,20 @@
 import './App.css';
-import Home from './views/Home';
-import Card from './component/Card';
-import About from './component/About';
-
-import Login from './views/Login';
+// import Home from './views/Home';
+import React from 'react';
+ import Navbar from './component/Navbar';
+ import Card from './component/Card';
+ import Footer from './component/Footer';
 
 
 function App() {
   return (
-    <div className="App">
-      <Home />
+    <>
+            <Navbar />
+            <Card />
+            <Footer />
+  
     
-      <About />
-      
-      <Login />
-    </div>
+    </>
   );
 }
 
